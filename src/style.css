@@ -1,0 +1,73 @@
+body {
+  margin: 40px auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 18px;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 18px;
+  font-weight: 500;
+  color: #f96d00;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  opacity: 0.6;
+}
+.bio {
+  margin-top: 18px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #f96d00;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.about-me-paragraph {
+  margin-top: 40px;
+  text-align: justify;
+  color: #808080;
+}
+
+.sunset-img {
+  height: 300px;
+  width: 95%;
+  object-fit: cover;
+  transition: transform 0.3 ease-out;
+}
+
+.sunset-img:hover {
+  transform: scale(1.1);
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #000000;
+}
+.contact-me a:hover {
+  color: #0e7cf4;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin: 28px 0;
+  border-top: 1px solid #d3d6db;
+}
+footer p {
+  margin-top: 20px;
+  opacity: 0.5;
+}
