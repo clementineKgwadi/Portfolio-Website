@@ -1,26 +1,19 @@
 body {
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  padding: 18px;
-  width: 100%;
+.navbar-nav .nav-link{
+  color: #f96d00 !important;
 }
 
-nav ul li a {
-  text-decoration: none;
-  margin: 18px;
-  font-weight: 500;
-  color: #f96d00;
-  font-size: 18px;
-}
-
-nav ul li a:hover {
+.navbar-nav .nav-link:hover{
   opacity: 0.6;
 }
+
+.container{
+  margin-top: 80px;
+}
+
 .bio {
   margin-top: 18px;
   text-align: center;
@@ -67,7 +60,14 @@ footer {
   margin: 28px 0;
   border-top: 1px solid #d3d6db;
 }
-footer p {
-  margin-top: 20px;
-  opacity: 0.5;
+footer i{
+  margin: 18px;
+  font-size: 20px;
+   transition: transform 0.3 ease-out;
+   color: #000000;
+   opacity: 0.7;
+}
+
+footer i:hover{
+  transform: scale(1.1);
 }
